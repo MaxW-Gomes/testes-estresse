@@ -1,0 +1,43 @@
+Summary:
+  Total:	79.9711 secs
+  Slowest:	20.0102 secs
+  Fastest:	4.6521 secs
+  Average:	12.7919 secs
+  Requests/sec:	9.7160
+  
+
+Response time histogram:
+  4.652 [1]	|■■■■
+  6.188 [5]	|■■■■■■■■■■■■■■■■■■
+  7.724 [5]	|■■■■■■■■■■■■■■■■■■
+  9.260 [6]	|■■■■■■■■■■■■■■■■■■■■■■
+  10.795 [7]	|■■■■■■■■■■■■■■■■■■■■■■■■■
+  12.331 [4]	|■■■■■■■■■■■■■■■
+  13.867 [6]	|■■■■■■■■■■■■■■■■■■■■■■
+  15.403 [3]	|■■■■■■■■■■■
+  16.939 [6]	|■■■■■■■■■■■■■■■■■■■■■■
+  18.474 [5]	|■■■■■■■■■■■■■■■■■■
+  20.010 [11]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+Latency distribution:
+  10% in 6.5511 secs
+  25% in 8.8515 secs
+  50% in 13.2525 secs
+  75% in 18.1590 secs
+  90% in 19.2490 secs
+  95% in 20.0002 secs
+  0% in 0.0000 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.1566 secs, 4.6521 secs, 20.0102 secs
+  DNS-lookup:	0.0144 secs, 0.0141 secs, 0.0147 secs
+  req write:	0.0186 secs, 0.0004 secs, 0.0399 secs
+  resp wait:	11.9323 secs, 3.8070 secs, 19.5578 secs
+  resp read:	0.6844 secs, 0.2031 secs, 1.4989 secs
+
+Status code distribution:
+  [200]	59 responses
+
+Error distribution:
+  [718]	Get "https://wpcachebenchmark.dev.goinfinite.net/": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
