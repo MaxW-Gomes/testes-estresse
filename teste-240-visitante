@@ -1,0 +1,479 @@
+
+# W3-TOTAL-CACHE
+
+Summary:
+  Total:	60.1113 secs
+  Slowest:	0.5520 secs
+  Fastest:	0.0195 secs
+  Average:	0.1625 secs
+  Requests/sec:	1474.4154
+  
+
+Response time histogram:
+  0.020 [1]	|
+  0.073 [345]	|
+  0.126 [1712]	|■
+  0.179 [73591]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.233 [10455]	|■■■■■■
+  0.286 [1438]	|■
+  0.339 [621]	|
+  0.392 [181]	|
+  0.445 [128]	|
+  0.499 [134]	|
+  0.552 [23]	|
+
+
+Latency distribution:
+  10% in 0.1401 secs
+  25% in 0.1477 secs
+  50% in 0.1575 secs
+  75% in 0.1693 secs
+  90% in 0.1870 secs
+  95% in 0.2057 secs
+  99% in 0.3014 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0001 secs, 0.0195 secs, 0.5520 secs
+  DNS-lookup:	0.0024 secs, 0.0000 secs, 0.3091 secs
+  req write:	0.0003 secs, 0.0000 secs, 0.3006 secs
+  resp wait:	0.1580 secs, 0.0157 secs, 0.4464 secs
+  resp read:	0.0020 secs, 0.0004 secs, 0.3615 secs
+
+Status code distribution:
+  [200]	88629 responses
+  
+  ----------------------------------------------------------------------------------------------
+  
+  ---------------------------------------------------------------------------------------
+  
+  
+  # WP-FATEST-CACHE
+  
+  Summary:
+  Total:	60.1846 secs
+  Slowest:	0.6394 secs
+  Fastest:	0.0162 secs
+  Average:	0.1638 secs
+  Requests/sec:	1462.5341
+  
+
+Response time histogram:
+  0.016 [1]	|
+  0.079 [497]	|
+  0.141 [8894]	|■■■■■
+  0.203 [73000]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.266 [3776]	|■■
+  0.328 [1191]	|■
+  0.390 [481]	|
+  0.452 [134]	|
+  0.515 [45]	|
+  0.577 [2]	|
+  0.639 [1]	|
+
+
+Latency distribution:
+  10% in 0.1404 secs
+  25% in 0.1480 secs
+  50% in 0.1581 secs
+  75% in 0.1704 secs
+  90% in 0.1902 secs
+  95% in 0.2145 secs
+  99% in 0.3141 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0001 secs, 0.0162 secs, 0.6394 secs
+  DNS-lookup:	0.0039 secs, 0.0000 secs, 0.3180 secs
+  req write:	0.0002 secs, 0.0000 secs, 0.2865 secs
+  resp wait:	0.1590 secs, 0.0155 secs, 0.4279 secs
+  resp read:	0.0017 secs, 0.0004 secs, 0.2923 secs
+
+Status code distribution:
+  [200]	88022 responses
+  
+  ----------------------------------------------------------------------------------------------------------
+  
+  ---------------------------------------------------------------------------------------------------------
+  
+  # LS-CACHE
+  
+  summary:
+  Total:	60.5235 secs
+  Slowest:	1.1715 secs
+  Fastest:	0.0226 secs
+  Average:	0.1655 secs
+  Requests/sec:	1439.1268
+  
+
+Response time histogram:
+  0.023 [1]	|
+  0.138 [7783]	|■■■■
+  0.252 [76022]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.367 [2477]	|■
+  0.482 [721]	|
+  0.597 [79]	|
+  0.712 [11]	|
+  0.827 [3]	|
+  0.942 [0]	|
+  1.057 [0]	|
+  1.172 [4]	|
+
+
+Latency distribution:
+  10% in 0.1386 secs
+  25% in 0.1472 secs
+  50% in 0.1575 secs
+  75% in 0.1704 secs
+  90% in 0.1934 secs
+  95% in 0.2298 secs
+  99% in 0.3641 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0001 secs, 0.0226 secs, 1.1715 secs
+  DNS-lookup:	0.0024 secs, 0.0000 secs, 0.2399 secs
+  req write:	0.0002 secs, 0.0000 secs, 0.2103 secs
+  resp wait:	0.1611 secs, 0.0146 secs, 0.8257 secs
+  resp read:	0.0021 secs, 0.0004 secs, 1.0267 secs
+
+Status code distribution:
+  [200]	87101 responses
+  
+ 
+ --------------------------------------------------------------------------------------------------------
+ 
+ ------------------------------------------------------------------------------------------------------------
+ 
+ 
+ # BREEZE
+ 
+ Summary:
+  Total:	62.1707 secs
+  Slowest:	2.8973 secs
+  Fastest:	0.1164 secs
+  Average:	2.1316 secs
+  Requests/sec:	110.7273
+  
+
+Response time histogram:
+  0.116 [1]	|
+  0.394 [40]	|
+  0.673 [30]	|
+  0.951 [33]	|
+  1.229 [23]	|
+  1.507 [34]	|
+  1.785 [31]	|
+  2.063 [1264]	|■■■■■■■■■■■
+  2.341 [4794]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  2.619 [621]	|■■■■■
+  2.897 [13]	|
+
+
+Latency distribution:
+  10% in 1.9993 secs
+  25% in 2.0941 secs
+  50% in 2.1167 secs
+  75% in 2.2115 secs
+  90% in 2.3134 secs
+  95% in 2.4011 secs
+  99% in 2.5100 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0041 secs, 0.1164 secs, 2.8973 secs
+  DNS-lookup:	0.0006 secs, 0.0000 secs, 0.0838 secs
+  req write:	0.0004 secs, 0.0000 secs, 0.0324 secs
+  resp wait:	2.1150 secs, 0.0408 secs, 2.8967 secs
+  resp read:	0.0100 secs, 0.0004 secs, 0.2957 secs
+
+Status code distribution:
+  [200]	6884 responses
+  
+  
+ --------------------------------------------------------------------------------------------------------
+ 
+ ------------------------------------------------------------------------------------------------------------
+ 
+ 
+ # CACHE-ENABLER
+ 
+ Summary:
+  Total:	62.0736 secs
+  Slowest:	2.8484 secs
+  Fastest:	0.1181 secs
+  Average:	2.1365 secs
+  Requests/sec:	110.4656
+  
+
+Response time histogram:
+  0.118 [1]	|
+  0.391 [34]	|
+  0.664 [37]	|
+  0.937 [27]	|
+  1.210 [27]	|
+  1.483 [37]	|
+  1.756 [37]	|
+  2.029 [1722]	|■■■■■■■■■■■■■■■■■■■
+  2.302 [3551]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  2.575 [1167]	|■■■■■■■■■■■■■
+  2.848 [217]	|■■
+
+
+Latency distribution:
+  10% in 1.9089 secs
+  25% in 2.0087 secs
+  50% in 2.1354 secs
+  75% in 2.2920 secs
+  90% in 2.4036 secs
+  95% in 2.5017 secs
+  99% in 2.6476 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0040 secs, 0.1181 secs, 2.8484 secs
+  DNS-lookup:	0.0006 secs, 0.0000 secs, 0.0269 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0108 secs
+  resp wait:	2.1195 secs, 0.0312 secs, 2.8478 secs
+  resp read:	0.0097 secs, 0.0005 secs, 0.3159 secs
+
+Status code distribution:
+  [200]	6857 responses
+  
+  --------------------------------------------------------------------------------------------------------
+ 
+ ------------------------------------------------------------------------------------------------------------
+ 
+ # WP-OPTIMIZE
+ 
+ Summary:
+  Total:	62.0942 secs
+  Slowest:	3.0182 secs
+  Fastest:	0.2565 secs
+  Average:	2.2515 secs
+  Requests/sec:	104.8408
+  
+
+Response time histogram:
+  0.257 [1]	|
+  0.533 [18]	|
+  0.809 [26]	|
+  1.085 [35]	|
+  1.361 [26]	|
+  1.637 [32]	|
+  1.914 [113]	|■
+  2.190 [1735]	|■■■■■■■■■■■■■■■■■■■
+  2.466 [3601]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  2.742 [775]	|■■■■■■■■■
+  3.018 [148]	|■■
+
+
+Latency distribution:
+  10% in 2.0201 secs
+  25% in 2.1379 secs
+  50% in 2.2789 secs
+  75% in 2.3907 secs
+  90% in 2.5024 secs
+  95% in 2.6124 secs
+  99% in 2.8121 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0082 secs, 0.2565 secs, 3.0182 secs
+  DNS-lookup:	0.0050 secs, 0.0000 secs, 0.1406 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0094 secs
+  resp wait:	2.2219 secs, 0.0401 secs, 3.0077 secs
+  resp read:	0.0185 secs, 0.0006 secs, 0.2894 secs
+
+Status code distribution:
+  [200]	6510 responses
+ 
+  --------------------------------------------------------------------------------------------------------
+ 
+ ------------------------------------------------------------------------------------------------------------
+ 
+ 
+ # HUMMINGBIRD
+ 
+ Summary:
+  Total:	62.8492 secs
+  Slowest:	3.6036 secs
+  Fastest:	0.1902 secs
+  Average:	2.7895 secs
+  Requests/sec:	84.1856
+  
+
+Response time histogram:
+  0.190 [1]	|
+  0.532 [20]	|
+  0.873 [29]	|
+  1.214 [27]	|
+  1.556 [34]	|
+  1.897 [27]	|
+  2.238 [35]	|
+  2.580 [291]	|■■■
+  2.921 [3430]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  3.262 [1263]	|■■■■■■■■■■■■■■■
+  3.604 [134]	|■■
+
+
+Latency distribution:
+  10% in 2.5913 secs
+  25% in 2.6996 secs
+  50% in 2.8101 secs
+  75% in 2.9345 secs
+  90% in 3.0902 secs
+  95% in 3.1808 secs
+  99% in 3.3846 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0085 secs, 0.1902 secs, 3.6036 secs
+  DNS-lookup:	0.0017 secs, 0.0000 secs, 0.0633 secs
+  req write:	0.0005 secs, 0.0000 secs, 0.0424 secs
+  resp wait:	2.7653 secs, 0.0751 secs, 3.5953 secs
+  resp read:	0.0130 secs, 0.0005 secs, 0.2006 secs
+
+Status code distribution:
+  [200]	5291 responses
+
+
+  --------------------------------------------------------------------------------------------------------
+ 
+ ------------------------------------------------------------------------------------------------------------
+ 
+ 
+ # WP-ROCKET
+ 
+ Summary:
+  Total:	63.0685 secs
+  Slowest:	4.4568 secs
+  Fastest:	0.1158 secs
+  Average:	2.9791 secs
+  Requests/sec:	78.6129
+  
+
+Response time histogram:
+  0.116 [1]	|
+  0.550 [36]	|
+  0.984 [25]	|
+  1.418 [36]	|
+  1.852 [37]	|
+  2.286 [30]	|
+  2.720 [424]	|■■■■■
+  3.155 [3285]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  3.589 [803]	|■■■■■■■■■■
+  4.023 [92]	|■
+  4.457 [189]	|■■
+
+
+Latency distribution:
+  10% in 2.7080 secs
+  25% in 2.8138 secs
+  50% in 2.9769 secs
+  75% in 3.1101 secs
+  90% in 3.3721 secs
+  95% in 3.7128 secs
+  99% in 4.2803 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0062 secs, 0.1158 secs, 4.4568 secs
+  DNS-lookup:	0.0006 secs, 0.0000 secs, 0.0200 secs
+  req write:	0.0002 secs, 0.0000 secs, 0.0146 secs
+  resp wait:	2.9416 secs, 0.0296 secs, 4.4422 secs
+  resp read:	0.0293 secs, 0.0008 secs, 0.4150 secs
+
+Status code distribution:
+  [200]	4958 responses
+  
+  
+ --------------------------------------------------------------------------------------------------------
+ 
+ ------------------------------------------------------------------------------------------------------------
+ 
+ WP-SUPER-CACHE
+ 
+ Summary:
+  Total:	63.6994 secs
+  Slowest:	5.5203 secs
+  Fastest:	0.4843 secs
+  Average:	3.7946 secs
+  Requests/sec:	61.4605
+  
+
+Response time histogram:
+  0.484 [1]	|
+  0.988 [29]	|
+  1.491 [29]	|
+  1.995 [29]	|
+  2.499 [35]	|■
+  3.002 [35]	|■
+  3.506 [248]	|■■■■
+  4.009 [2733]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  4.513 [536]	|■■■■■■■■
+  5.017 [164]	|■■
+  5.520 [76]	|■
+
+
+Latency distribution:
+  10% in 3.5048 secs
+  25% in 3.6341 secs
+  50% in 3.7996 secs
+  75% in 3.9909 secs
+  90% in 4.1910 secs
+  95% in 4.7197 secs
+  99% in 5.1421 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0213 secs, 0.4843 secs, 5.5203 secs
+  DNS-lookup:	0.0081 secs, 0.0000 secs, 0.1342 secs
+  req write:	0.0019 secs, 0.0000 secs, 0.0779 secs
+  resp wait:	3.7688 secs, 0.1974 secs, 5.5198 secs
+  resp read:	0.0025 secs, 0.0005 secs, 0.0506 secs
+
+Status code distribution:
+  [200]	3915 responses
+  
+   --------------------------------------------------------------------------------------------------------
+ 
+ ------------------------------------------------------------------------------------------------------------
+ 
+ 
+ # SEM PLUGINS DE CACHE
+ 
+ Summary:
+  Total:	79.9711 secs
+  Slowest:	20.0102 secs
+  Fastest:	4.6521 secs
+  Average:	12.7919 secs
+  Requests/sec:	9.7160
+  
+
+Response time histogram:
+  4.652 [1]	|■■■■
+  6.188 [5]	|■■■■■■■■■■■■■■■■■■
+  7.724 [5]	|■■■■■■■■■■■■■■■■■■
+  9.260 [6]	|■■■■■■■■■■■■■■■■■■■■■■
+  10.795 [7]	|■■■■■■■■■■■■■■■■■■■■■■■■■
+  12.331 [4]	|■■■■■■■■■■■■■■■
+  13.867 [6]	|■■■■■■■■■■■■■■■■■■■■■■
+  15.403 [3]	|■■■■■■■■■■■
+  16.939 [6]	|■■■■■■■■■■■■■■■■■■■■■■
+  18.474 [5]	|■■■■■■■■■■■■■■■■■■
+  20.010 [11]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+Latency distribution:
+  10% in 6.5511 secs
+  25% in 8.8515 secs
+  50% in 13.2525 secs
+  75% in 18.1590 secs
+  90% in 19.2490 secs
+  95% in 20.0002 secs
+  0% in 0.0000 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.1566 secs, 4.6521 secs, 20.0102 secs
+  DNS-lookup:	0.0144 secs, 0.0141 secs, 0.0147 secs
+  req write:	0.0186 secs, 0.0004 secs, 0.0399 secs
+  resp wait:	11.9323 secs, 3.8070 secs, 19.5578 secs
+  resp read:	0.6844 secs, 0.2031 secs, 1.4989 secs
+
+Status code distribution:
+  [200]	59 responses
+
+Error distribution:
+  [718]	Get "https://wpcachebenchmark.dev.goinfinite.net/": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
